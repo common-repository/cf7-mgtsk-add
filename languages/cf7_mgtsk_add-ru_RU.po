@@ -1,0 +1,128 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cf7_mgtsk_add\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Thu Mar 24 2016 15:33:51 GMT+0300 (ÐÐ¾ÑÐºÐ¾Ð²ÑÐºÐ¾Ðµ "
+"Ð²ÑÐµÐ¼Ñ (Ð·Ð¸Ð¼Ð°))\n"
+"PO-Revision-Date: Thu Apr 07 2016 11:18:15 GMT+0300 (ÐÐ¾ÑÐºÐ¾Ð²ÑÐºÐ¾Ðµ "
+"Ð²ÑÐµÐ¼Ñ (Ð·Ð¸Ð¼Ð°))\n"
+"Last-Translator: admin <sn@sadesign.pro>\n"
+"Language-Team: \n"
+"Language: Russian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: ru_RU\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "Мегатаск [WPCF]"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Плагин для интеграции CMS Wordpress и CRM Мегаплана. Работает как дополнение "
+"к основному плагину contactform7. Все формы, созданные через плагин, "
+"автоматически интегрируются с вашей CRM."
+msgstr ""
+
+#. Author of the plugin
+msgid "sadesign"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://sadesign.pro"
+msgstr ""
+
+#: ../cf7_mgtsk_add.php:31
+msgid "Contact From 7 is not installed"
+msgstr "Плагин Contact From 7 не установлен"
+
+#: ../cf7_mgtsk_add.php:108
+msgid "cf7_mgtsk_add Page Title"
+msgstr "Мегатаск [WPCF]"
+
+#: ../cf7_mgtsk_add.php:109
+msgid "cf7_mgtsk_add Menu Title"
+msgstr "Мегатаск [WPCF]"
+
+#: ../cf7_mgtsk_add.php:136
+msgid "cf7_mgtsk_add Page H1"
+msgstr "Мегатаск [WPCF]"
+
+#: ../cf7_mgtsk_add.php:157
+msgid "cf7_mgtsk_add Log Page H1"
+msgstr "Журнал сообщений"
+
+#: ../cf7_mgtsk_add.php:181
+msgid "Key MGTSK"
+msgstr "Введите ключ MGTSK"
+
+#: ../cf7_mgtsk_add.php:194
+msgid "Write log"
+msgstr "Вести лог?"
+
+#: ../cf7_mgtsk_add.php:203
+#, php-format
+msgid "go to <a href=\"%s\">log page</a>"
+msgstr "Перейти на <a href=\"%s\">страницу логирования</a>"
+
+#: ../cf7_mgtsk_add.php:217
+msgid "Settings Box title"
+msgstr "Настройки плагина"
+
+#: ../cf7_mgtsk_add.php:220
+msgid "cf7_mgtsk_add settings"
+msgstr ""
+"<p>В&nbsp;целях повышения надежности хранения и&nbsp;скорости передачи "
+"данных, мы&nbsp;дополнили логику работы API Мегаплана именно поэтому "
+"передача данных идет через наш сервис. Вам достаточно пройти регистрацию "
+"на&nbsp;сайте <a href=\"http://mgtsk.ru\" target=\"_blank\">mgtsk.ru</a>, "
+"получить ключ авторизации (в&nbsp;меню «Интеграция с&nbsp;CMS»), "
+"распределить типы событий и&nbsp;ответственных.</p>"
+
+#: ../cf7_mgtsk_add.php:313
+msgid "form_title"
+msgstr "Название формы"
+
+#: ../cf7_mgtsk_add.php:355
+msgid "other_email"
+msgstr "Другие адреса e-mail"
+
+#: ../cf7_mgtsk_add.php:363
+msgid "other_phone"
+msgstr "Другие номера телефона"
+
+#: ../includes/cf7_mgtsk_List_Table.php:15
+msgid "Title"
+msgstr "Название"
+
+#: ../includes/cf7_mgtsk_List_Table.php:16
+msgid "use mgtsk?"
+msgstr "Использовать MGTSK?"
+
+#: ../includes/cf7_mgtsk_List_Table.php:17
+msgid "fields in form"
+msgstr "Поля в форме"
+
+#: ../includes/cf7_mgtsk_Helper.php:75
+msgid "type"
+msgstr "Тип"
+
+#: ../includes/cf7_mgtsk_Helper.php:77
+msgid "name"
+msgstr "Имя"
+
+#: ../includes/cf7_mgtsk_Helper.php:78
+msgid "display_name"
+msgstr "Подсказка"

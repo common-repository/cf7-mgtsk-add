@@ -1,0 +1,70 @@
+.table {
+  &-small {
+    td {
+      padding: 3px;
+    }
+    thead {
+      td {
+        font-size: 1em;
+        font-weight: bold;
+      }
+    }
+  }
+  &-properties {
+    border: 0;
+    border-collapse: collapse;
+    tr {
+      &.required {
+        td {
+          background: fadeout(red, 75%);
+        }
+      }
+      &.field {
+        td {
+          color: green;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.input {
+  &-full {
+    width: 100%;
+  }
+}
+
+.text {
+  .align(@align) {
+    &-@{align} {
+      text-align: @align !important;
+    }
+  }
+  .align(left);
+}
+
+.mar {
+  .mar(@direction, @value) {
+    &_@{direction}_@{value} {
+      margin-@{direction}: unit(@value, px);
+    }
+  }
+  .mar(bottom, 20);
+}
+
+#mgtsk_key_text {
+  width: 100%;
+}
+
+@black: #000;
+.cf7_mgtsk_add_log {
+  padding: 10px;
+  border: 1px solid fadeout(@black, 40%);
+  background: lighten(@black, 90);
+  border-radius: 10px;
+  font-family: "Courier New", monospace;
+  white-space: pre-line;
+  color: #000;
+  height: 100%;
+}

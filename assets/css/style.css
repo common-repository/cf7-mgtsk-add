@@ -1,0 +1,41 @@
+.table-small td {
+  padding: 3px;
+}
+.table-small thead td {
+  font-size: 1em;
+  font-weight: bold;
+}
+.table-properties {
+  border: 0;
+  border-collapse: collapse;
+}
+.table-properties tr.required td {
+  background: rgba(255, 0, 0, 0.25);
+}
+.table-properties tr.field td {
+  color: green;
+  text-decoration: underline;
+}
+.input-full {
+  width: 100%;
+}
+.text-left {
+  text-align: left !important;
+}
+.mar_bottom_20 {
+  margin-bottom: 20px;
+}
+#mgtsk_key_text {
+  width: 100%;
+}
+.cf7_mgtsk_add_log {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  background: #e6e6e6;
+  border-radius: 10px;
+  font-family: "Courier New", monospace;
+  white-space: pre-line;
+  color: #000;
+  height: 100%;
+}
+/*# sourceMappingURL=../css/style.map.css */
